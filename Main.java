@@ -15,7 +15,7 @@ public class Main {
             System.out.print("Enter a number: ");
             int input = scanner.nextInt();
 
-            if (input == -1) {
+            if (input < 0) {
                 // Stop if -1 is entered
                 break;
             }
